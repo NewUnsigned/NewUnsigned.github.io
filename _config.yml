@@ -52,6 +52,20 @@ index_generator:
   path: ''
   per_page: 10
   order_by: -date
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+gitalk: 
+  enable: true
+  client_id: d98f51e8e579b5e66da9
+  client_secret: 8394bb984657589b1dfeb025dc66d4303d6a9eac
+  repo: zhaopeng0708.github.io
+  owner: zhaopeng0708
+  admin: zhaopeng0708
   
 # Category & Tag
 default_category: uncategorized

@@ -111,10 +111,10 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+# scheme: Muse
+scheme: Mist
+# scheme: Pisces
+# scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -182,9 +182,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  # display: post
   #display: always
-  #display: hide
+  display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
@@ -397,6 +397,15 @@ valine:
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 #livere_uid: your uid
 
+gitalk:
+  enable: true
+  githubID: zhaopeng0708  # 例：blacklisten
+  repo: zhaopeng0708.github.io   # 例：blacklisten.github.io
+  ClientID: d98f51e8e579b5e66da9
+  ClientSecret: 8394bb984657589b1dfeb025dc66d4303d6a9eac
+  adminUser: zhaopeng0708 #指定可初始化评论账户 如 blacklisten
+  distractionFreeMode: true
+
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 # You can get your Github ID from https://api.github.com/users/<Github username>
@@ -604,13 +613,12 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
-
 
 # ---------------------------------------------------------------
 # Tags Settings
