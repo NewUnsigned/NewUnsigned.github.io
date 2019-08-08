@@ -80,4 +80,4 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/NewUnsigned/NewUnsigned.github.io.git
-  branch: publish
+  branch: master
