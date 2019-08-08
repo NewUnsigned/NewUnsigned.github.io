@@ -218,16 +218,6 @@
         </li>
       
         
-        <li class="menu-item menu-item-sitemap">
-          <a href="/sitemap.xml" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br>
-            
-            Sitemap
-          </a>
-        </li>
-      
-        
         <li class="menu-item menu-item-about">
           <a href="/about/" rel="section">
             
@@ -344,6 +334,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/iOS/" itemprop="url" rel="index">
+                    <span itemprop="name">iOS</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -373,8 +385,15 @@
       
         
           
-            
           
+          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/08/08/iOS-Animation/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -492,104 +511,45 @@
       
         
           
-            <p align="center">
-  <img width="320" src="https://wpimg.wallstcn.com/ecc53a42-d79b-42e2-8852-5126b810a4c8.svg">
-</p>
-
-<p align="center">
-  <a href="https://github.com/vuejs/vue" target="_blank" rel="noopener">
-    <img src="https://img.shields.io/badge/vue-2.6.10-brightgreen.svg" alt="vue">
-  </a>
-  <a href="https://github.com/ElemeFE/element" target="_blank" rel="noopener">
-    <img src="https://img.shields.io/badge/element--ui-2.7.0-brightgreen.svg" alt="element-ui">
-  </a>
-  <a href="https://travis-ci.org/PanJiaChen/vue-element-admin" rel="noopener" target="_blank">
-    <img src="https://travis-ci.org/PanJiaChen/vue-element-admin.svg?branch=master" alt="Build Status">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE" target="_blank" rel="noopener">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
-  </a>
-  <a href="https://github.com/PanJiaChen/vue-element-admin/releases" target="_blank" rel="noopener">
-    <img src="https://img.shields.io/github/release/PanJiaChen/vue-element-admin.svg" alt="GitHub release">
-  </a>
-  <a href="https://gitter.im/vue-element-admin/discuss" target="_blank" rel="noopener">
-    <img src="https://badges.gitter.im/Join%20Chat.svg" alt="gitter">
-  </a>
-  <a href="https://panjiachen.github.io/vue-element-admin-site/donate" target="_blank" rel="noopener">
-    <img src="https://img.shields.io/badge/%24-donate-ff69b4.svg" alt="donate">
-  </a>
-</p>
-
-<p>English | <a href="./README.zh-CN.md">简体中文</a> | <a href="./README.ja.md">日本語</a> | <a href="./README.es.md">Spanish</a></p>
-<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p><a href="https://panjiachen.github.io/vue-element-admin" target="_blank" rel="noopener">vue-element-admin</a> is a production-ready front-end solution for admin interfaces. It based on <a href="https://github.com/vuejs/vue" target="_blank" rel="noopener">vue</a> and use the UI Toolkit <a href="https://github.com/ElemeFE/element" target="_blank" rel="noopener">element-ui</a>.</p>
-<p>It is a magical vue admin based on the newest development stack of vue, built-in i18n solution, typical templates for enterprise applications, lots of awesome features. It helps you build a large complex Single-Page Applications. I believe whatever your needs are, this project will help you.</p>
-<ul>
-<li><p><a href="https://panjiachen.github.io/vue-element-admin" target="_blank" rel="noopener">Preview</a></p>
-</li>
-<li><p><a href="https://panjiachen.github.io/vue-element-admin-site/" target="_blank" rel="noopener">Documentation</a></p>
-</li>
-<li><p><a href="https://gitter.im/vue-element-admin/discuss" target="_blank" rel="noopener">Gitter</a></p>
-</li>
-<li><p><a href="https://panjiachen.github.io/vue-element-admin-site/donate/" target="_blank" rel="noopener">Donate</a></p>
-</li>
-<li><p><a href="https://github.com/PanJiaChen/vue-element-admin/wiki" target="_blank" rel="noopener">Wiki</a></p>
-</li>
-<li><p><a href="https://panjiachen.gitee.io/vue-element-admin/" target="_blank" rel="noopener">Gitee</a> 国内用户可访问该地址在线预览</p>
-</li>
-<li><p>Base template recommends using: <a href="https://github.com/PanJiaChen/vue-admin-template" target="_blank" rel="noopener">vue-admin-template</a></p>
-</li>
-<li><p>Desktop: <a href="https://github.com/PanJiaChen/electron-vue-admin" target="_blank" rel="noopener">electron-vue-admin</a></p>
-</li>
-<li><p>Typescript: <a href="https://github.com/Armour/vue-typescript-admin-template" target="_blank" rel="noopener">vue-typescript-admin-template</a> (Credits: <a href="https://github.com/Armour" target="_blank" rel="noopener">@Armour</a>)</p>
-</li>
-</ul>
-<p><strong>After the <code>v4.1.0+</code> version, the default master branch will not support i18n. Please use <a href="https://github.com/PanJiaChen/vue-element-admin/tree/i18n" target="_blank" rel="noopener">i18n Branch</a>, it will keep up with the master update</strong></p>
-<p><strong>The current version is <code>v4.0+</code> build on <code>vue-cli</code>. If you find a problem, please put <a href="https://github.com/PanJiaChen/vue-element-admin/issues/new" target="_blank" rel="noopener">issue</a>. If you want to use the old version , you can switch branch to <a href="https://github.com/PanJiaChen/vue-element-admin/tree/tag/3.11.0" target="_blank" rel="noopener">tag/3.11.0</a>, it does not rely on <code>vue-cli</code></strong></p>
-<p><strong>This project does not support low version browsers (e.g. IE). Please add polyfill by yourself.</strong></p>
-<h2 id="Preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h2><p>You need to install <a href="https://nodejs.org/" target="_blank" rel="noopener">node</a> and <a href="https://git-scm.com/" target="_blank" rel="noopener">git</a> locally. The project is based on <a href="https://es6.ruanyifeng.com/" target="_blank" rel="noopener">ES2015+</a>, <a href="https://cn.vuejs.org/index.html" target="_blank" rel="noopener">vue</a>, <a href="https://vuex.vuejs.org/zh-cn/" target="_blank" rel="noopener">vuex</a>, <a href="https://router.vuejs.org/zh-cn/" target="_blank" rel="noopener">vue-router</a>, <a href="https://github.com/vuejs/vue-cli" target="_blank" rel="noopener">vue-cli</a> , <a href="https://github.com/axios/axios" target="_blank" rel="noopener">axios</a> and <a href="https://github.com/ElemeFE/element" target="_blank" rel="noopener">element-ui</a>, all request data is simulated using <a href="https://github.com/nuysoft/Mock" target="_blank" rel="noopener">Mock.js</a>.<br>Understanding and learning this knowledge in advance will greatly help the use of this project.</p>
- <p align="center">
-  <img width="900" src="https://wpimg.wallstcn.com/a5894c1b-f6af-456e-82df-1151da0839bf.png">
-</p>
-
-<h2 id="Sponsors"><a href="#Sponsors" class="headerlink" title="Sponsors"></a>Sponsors</h2><p>Become a sponsor and get your logo on our README on GitHub with a link to your site. <a href="https://www.patreon.com/panjiachen" target="_blank" rel="noopener">[Become a sponsor]</a></p>
-<p><a href="https://flatlogic.com/admin-dashboards?from=vue-element-admin" target="_blank" rel="noopener"><img width="150px" src="https://wpimg.wallstcn.com/9c0b719b-5551-4c1e-b776-63994632d94a.png"></a></p><p>Admin Dashboard Templates made with Vue, React and Angular.</p><p></p>
-<h2 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line">- Login / Logout</span><br><span class="line"></span><br><span class="line">- Permission Authentication</span><br><span class="line">  - Page permission</span><br><span class="line">  - Directive permission</span><br><span class="line">  - Permission configuration page</span><br><span class="line">  - Two-step login</span><br><span class="line"></span><br><span class="line">- Multi-environment build</span><br><span class="line">  - dev sit stage prod</span><br><span class="line"></span><br><span class="line">- Global Features</span><br><span class="line">  - I18n</span><br><span class="line">  - Multiple dynamic themes</span><br><span class="line">  - Dynamic sidebar (supports multi-level routing)</span><br><span class="line">  - Dynamic breadcrumb</span><br><span class="line">  - Tags-view (Tab page Support right-click operation)</span><br><span class="line">  - Svg Sprite</span><br><span class="line">  - Mock data</span><br><span class="line">  - Screenfull</span><br><span class="line">  - Responsive Sidebar</span><br><span class="line"></span><br><span class="line">- Editor</span><br><span class="line">  - Rich Text Editor</span><br><span class="line">  - Markdown Editor</span><br><span class="line">  - JSON Editor</span><br><span class="line"></span><br><span class="line">- Excel</span><br><span class="line">  - Export Excel</span><br><span class="line">  - Upload Excel</span><br><span class="line">  - Visualization Excel</span><br><span class="line">  - Export zip</span><br><span class="line"></span><br><span class="line">- Table</span><br><span class="line">  - Dynamic Table</span><br><span class="line">  - Drag And Drop Table</span><br><span class="line">  - Inline Edit Table</span><br><span class="line"></span><br><span class="line">- Error Page</span><br><span class="line">  - 401</span><br><span class="line">  - 404</span><br><span class="line"></span><br><span class="line">- Components</span><br><span class="line">  - Avatar Upload</span><br><span class="line">  - Back To Top</span><br><span class="line">  - Drag Dialog</span><br><span class="line">  - Drag Select</span><br><span class="line">  - Drag Kanban</span><br><span class="line">  - Drag List</span><br><span class="line">  - SplitPane</span><br><span class="line">  - Dropzone</span><br><span class="line">  - Sticky</span><br><span class="line">  - CountTo</span><br><span class="line"></span><br><span class="line">- Advanced Example</span><br><span class="line">- Error Log</span><br><span class="line">- Dashboard</span><br><span class="line">- Guide Page</span><br><span class="line">- ECharts</span><br><span class="line">- Clipboard</span><br><span class="line">- Markdown to html</span><br></pre></td></tr></table></figure>
-
-<h2 id="Getting-started"><a href="#Getting-started" class="headerlink" title="Getting started"></a>Getting started</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># clone the project</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/PanJiaChen/vue-element-admin.git</span><br><span class="line"></span><br><span class="line"><span class="comment"># enter the project directory</span></span><br><span class="line"><span class="built_in">cd</span> vue-element-admin</span><br><span class="line"></span><br><span class="line"><span class="comment"># install dependency</span></span><br><span class="line">npm install</span><br><span class="line"></span><br><span class="line"><span class="comment"># develop</span></span><br><span class="line">npm run dev</span><br></pre></td></tr></table></figure>
-
-<p>This will automatically open <a href="http://localhost:9527" target="_blank" rel="noopener">http://localhost:9527</a></p>
-<h2 id="Build"><a href="#Build" class="headerlink" title="Build"></a>Build</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># build for test environment</span></span><br><span class="line">npm run build:stage</span><br><span class="line"></span><br><span class="line"><span class="comment"># build for production environment</span></span><br><span class="line">npm run build:prod</span><br></pre></td></tr></table></figure>
-
-<h2 id="Advanced"><a href="#Advanced" class="headerlink" title="Advanced"></a>Advanced</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># preview the release environment effect</span></span><br><span class="line">npm run preview</span><br><span class="line"></span><br><span class="line"><span class="comment"># preview the release environment effect + static resource analysis</span></span><br><span class="line">npm run preview -- --report</span><br><span class="line"></span><br><span class="line"><span class="comment"># code format check</span></span><br><span class="line">npm run lint</span><br><span class="line"></span><br><span class="line"><span class="comment"># code format check and auto fix</span></span><br><span class="line">npm run lint -- --fix</span><br></pre></td></tr></table></figure>
-
-<p>Refer to <a href="https://panjiachen.github.io/vue-element-admin-site/guide/essentials/deploy.html" target="_blank" rel="noopener">Documentation</a> for more information</p>
-<h2 id="Changelog"><a href="#Changelog" class="headerlink" title="Changelog"></a>Changelog</h2><p>Detailed changes for each release are documented in the <a href="https://github.com/PanJiaChen/vue-element-admin/releases" target="_blank" rel="noopener">release notes</a>.</p>
-<h2 id="Online-Demo"><a href="#Online-Demo" class="headerlink" title="Online Demo"></a>Online Demo</h2><p><a href="https://panjiachen.github.io/vue-element-admin" target="_blank" rel="noopener">Preview</a></p>
-<h2 id="Donate"><a href="#Donate" class="headerlink" title="Donate"></a>Donate</h2><p>If you find this project useful, you can buy author a glass of juice :tropical_drink:</p>
-<p><img src="https://wpimg.wallstcn.com/bd273f0d-83a0-4ef2-92e1-9ac8ed3746b9.png" alt="donate"></p>
-<p><a href="https://www.paypal.me/panfree23" target="_blank" rel="noopener">Paypal Me</a></p>
-<p><a href="https://www.buymeacoffee.com/Pan" target="_blank" rel="noopener">Buy me a coffee</a></p>
-<h2 id="Browsers-support"><a href="#Browsers-support" class="headerlink" title="Browsers support"></a>Browsers support</h2><p>Modern browsers and Internet Explorer 10+.</p>
-<table>
-<thead>
-<tr>
-<th><a href="https://godban.github.io/browsers-support-badges/" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px"></a><br>IE / Edge</th>
-<th><a href="https://godban.github.io/browsers-support-badges/" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px"></a><br>Firefox</th>
-<th><a href="https://godban.github.io/browsers-support-badges/" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px"></a><br>Chrome</th>
-<th><a href="https://godban.github.io/browsers-support-badges/" target="_blank" rel="noopener"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px"></a><br>Safari</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>IE10, IE11, Edge</td>
-<td>last 2 versions</td>
-<td>last 2 versions</td>
-<td>last 2 versions</td>
-</tr>
-</tbody></table>
-<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p><a href="https://github.com/PanJiaChen/vue-element-admin/blob/master/LICENSE" target="_blank" rel="noopener">MIT</a></p>
-<p>Copyright (c) 2017-present PanJiaChen</p>
-
           
+  
+
+
+
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+  
+    
+  
+
+
+English | 简体中文 | 日本語 | Spanish
+Introductionvue-element-admin is a production-ready front-end solution for admin interfaces. It based on vue and use the UI Toolkit element-ui.
+It is a magical vue admin based on the newest development stack of vue, built-in i18n solution, typical templates for enterprise applications, lots of awesome features. It helps you build a large complex Single-Page Applications. I believe
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/08/08/My-Post/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -678,15 +638,24 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">categories</span>
+                </a>
+              </div>
+            
 
             
               
               
               <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">1</span>
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">tags</span>
-                
+                </a>
               </div>
             
 
