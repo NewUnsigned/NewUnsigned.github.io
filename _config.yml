@@ -79,5 +79,5 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/NewUnsigned/blogs.git
+  repo: https://github.com/NewUnsigned/NewUnsigned.github.io.git
   branch: publish
